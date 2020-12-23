@@ -1,7 +1,12 @@
+//bootstrap components
 import { Container } from 'react-bootstrap';
 
+//components
 import Header from './Header';
 import Footer from './Footer';
+
+//Screens
+import HomeScreen from '../screens/HomeScreen';
 
 const App = () => {
 	return (
@@ -9,7 +14,7 @@ const App = () => {
 			<Header />
 			<main className='py-3'>
 				<Container>
-					<h1>Welcome to proShop</h1>
+					<HomeScreen />
 				</Container>
 			</main>
 			<Footer />
